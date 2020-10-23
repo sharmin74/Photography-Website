@@ -1,0 +1,147 @@
+<%- include('partials/header') %>
+
+<div id="home">
+	<!-- BACKGROUND IMAGES AND TITLE-1  -->
+	<div class="container-fluid px-0">
+		<div class="row no-gutters"> 
+			<div  class="col-lg-6 col-md-12">
+				<div class="container" id="overlay-text">
+					<h1 id="overlay-h1"><b>Stay With Your Dreams <br> and Passion</b></h1>
+					<h3>Photography is not about just capturing smiles, it's about capturing souls.</h3> 
+				</div>
+				<img src="photos/janvi/jc3.jpg" class="img-fluid" id="indexWallpaper" />
+			</div>
+			<div class="col-lg-6 col-md-12" id="indexWallpaper1" >
+				<img src="photos/janvi/jc5.jpg" class="img-fluid" />
+			</div>
+		</div>
+	</div>
+	<br><br>
+
+	<!-- ABOUT THEM -->
+	<br><br>		
+	<div class="container-fluid ">
+
+		<div class="row">
+			<div class="col-lg-2 "></div>
+
+			<div class="col-lg-4 ">
+				<img class="img-fluid" src="photos/homePranjal.jpg">
+			</div>
+			<div class="col-lg-4 ">
+				<h1 class="indexNames"><%= name2 %></h1>
+				<br>
+				<p  class="homeImgDescription">  Hello, I am Pranjal Sawant, a first year student, studying BCA (bachelor's in computer application), at Shri M.D shah mahila college of commerce and arts at Malad. I love to capture the most beautiful moments. It takes a lot of effort and time to make it as a professional photographer, and I am investing into both of it. While taking photographs, I take care of the tiniest detail in my picture, so that it can be the best of any pictures that I take. I try to compete with my ownself, so that I can click the best of the pictures. I have the patience to take 1000 shots to get that one perfect shot that looks incredible. I am very much passionate about photography. I love photography. </p>
+				<div style="text-align:;">
+					<a href="/pranjal">
+						<button type="button" class="btn btn-secondary bg-dark" id="buttonCss1">Explore my Gallery</button>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-2 "></div>
+		</div>
+
+		<br><br><br><br>
+
+		<div class="row">
+			<div class="col-lg-2 order-lg-1"></div>
+			<div class="col-lg-4 order-lg-3">
+				<img class="img-fluid" src="photos/homeJanvi.jpg">
+			</div>
+			<div class="col-lg-4 order-lg-2">
+				<h1  class="indexNames"><%= name1 %></h1>
+				<br>
+				<p class="homeImgDescription"> Hello, I am Janvi Dhumal, a first year student, studying BCA (bachelor's in computer application), at Shri M.D shah mahila college of commerce and arts at Malad. I try to see beauty in unexpected places and capture that beauty in a photograph. I do invest a lot of time in understanding what a professional photographer it takes to be. I put efforts each day by practising, to get those perfect shots which I always wish of. I take care of all the minute things in my photograph, because I believe that even a minute detail in a photograph can make or break a picture. I am working towards my skills with a lot of passion so that I can make them perfect. I am very much passionate when it comes to photography. I love photography. </p>
+				<div class="text-cente">
+					<a href="/janvi">
+						<button type="button" class="btn btn-secondary bg-dark" id="buttonCss1">Explore my Gallery</button>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-2 order-lg-4"></div>
+		</div>
+
+	</div>
+	<br><br><br><br><br><br><br><br>
+
+
+	<div class="homeParralax container-fluid">
+	</div>
+	<h1 class="homeParralax-data">We take photographs with <br> creativity, concept and passion</h1>
+
+	
+
+
+
+	<br><br><br><br><br><br>
+	<!-- PHOTO GALLERY -->
+	<br><br>
+	<br><br>
+
+
+	<div class="container">
+		<br><br>
+		<h1 class="text-center">From Our Journal</h1>
+		<hr style="background-color: black;">
+
+		<br><br><br>
+
+		<div class="row">
+
+			<div class="col-lg-5 col-md-12 gallerys border  margin1" id="endPara">
+				<div class="row">
+					<a href="photos/pranjal/p7.jpg">
+						<img class="img-fluid" src="photos/pranjal/p7.jpg" alt="image" >
+					</a>
+				</div>
+				<br>
+				<div class="row text-center">
+					<h2 class="px-3">Lifeline Of Mumbai</h2>
+					<br>
+					<p class="homeImgDescription px-3 py-2"> <%=pranjalPara %></p>
+				</div>				
+			</div>
+
+			<div class="col-lg-1"></div>
+
+			<div class="col-lg-5 col-md-12 gallerys border margin2" id="endPara">
+				<div class="row">
+					<a href="photos/janvi/jc6.jpg">
+						<img class="img-fluid" src="photos/janvi/jc10.jpg" alt="image" id="indexPic">
+					</a>
+				</div>
+				<br>
+				<div  class="row text-center">
+					<h2 class="px-3">Tea Time</h2>
+					<br><br>
+					<p class="homeImgDescription px-3 py-2"><%= janviPara %></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<br><br><br>
+
+</div>
+
+<%- include('partials/footer') %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

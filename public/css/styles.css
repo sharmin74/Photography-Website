@@ -1,0 +1,498 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	overflow-x: hidden;
+	background-color: #eeeeee;
+	font-family: Cormorant, sans-serif;
+}
+
+.middlePart{
+	background-color: #101010; 
+	padding-top: 70px;
+}
+
+#navTop{
+	background-image: url('j3.jpg');
+	margin-top: 6.3px;
+	border-bottom:  0px solid;
+	position: absolute;
+	z-index: 2;
+}
+#navBrand{
+	font-size: 33px;
+	margin-left: 10px;
+	font-weight: bolder;
+	color: white;
+}
+
+#navItems{
+	margin-left: 36.2rem;
+	font-size: 17px;
+	font-family: Cormorant, sans-serif;
+}
+#navButton{
+	color:white;
+	z-index: 2;
+}
+
+#footerTop{
+	background-color: #1A1818;  
+	border-top:  0px solid;
+	box-shadow: 5px 10px 25px grey; 
+}
+#overlay{
+	background-color:rgba(0, 0, 0, 0.5);
+	position: absolute;
+	width: 79rem;
+	height: 61.3rem;
+	z-index: 1;
+	opacity: 0.7;
+}
+#overlay-on{
+	position: relative;
+}
+#overlay-about{
+	background-color:rgba(0, 0, 0, 0.5);
+	position: absolute;
+	width: 79rem;
+	height: 28rem;
+	z-index: 1;
+	opacity: 0.9;
+}
+#overlay-text{
+	position: absolute;
+	color: white;
+	z-index: 2;
+	margin-top: 11.5rem; 
+	margin-left: 4rem;
+}
+#overlay-h1{
+	font-size: 4.7rem;
+}
+#overlay-text-sub{
+	font-family:Open Sans;
+	position: absolute;
+	color: white;
+	z-index: 2;
+	font-size: 2rem;
+	margin-top: 37rem;
+	margin-left: 4rem;
+}
+
+#overlay-about-text{
+	z-index: 2;
+	margin-top: 20rem;
+	position: absolute;
+	color: white;
+	text-align: center;
+}
+#overlay-about-h1{
+	font-size: 5rem;
+	font-weight: bold;
+}
+
+.about-heading{
+	font-size: 60px;
+}
+
+#tog1{
+	margin-top: 1rem;
+}
+
+#bg-pranjal-img{
+	width: 41rem; 
+	height:26.1rem
+}
+#title-2-hr{
+	width:20rem;
+}
+#title-3-hr{
+	width:9rem;
+}
+
+#bg-janvi-2{
+	height: 61.3rem;
+}
+
+.i1 {
+	width: 14rem;
+	height: 14rem;
+}
+.i2 {
+	width: 7rem;
+	height: 7rem;
+}
+.hr1{
+	width: 7rem;
+	border-top: 4px dotted;
+	color: #d9d9d9;
+}
+hr{
+	width: 12rem;
+	margin-top: 5px;
+}
+
+#aboutUsParaPhone{
+	font-size: 20px;
+}
+
+.form-style{
+	margin: auto;
+	width: 500px;
+	border-radius: 25px;
+}
+
+#inp{
+	padding-bottom: 15rem;
+	border-radius: 25px;
+	padding-left: 1.5rem;
+}
+#inp1{
+	height: 3rem;
+	border-radius: 25px;
+	padding-left: 1.5rem;
+}
+#pic{
+	margin: auto;
+	width: auto;
+	height: 12rem;
+	border-radius: 25px;
+}
+
+#endPara{
+	border-bottom:  0px solid;
+	box-shadow: 5px 10px 15px #ABA9A9; 
+}
+
+#indexParaPhone{
+	padding: 15px;
+}
+#footerCss{
+	height: 50px; 
+	width: 100%; 
+	background-color: #161616;
+}
+
+.hrAbout{
+	width:9rem;
+}
+
+.hrbelowAbout{
+	width: 70%;
+}
+
+
+.information{
+	position: absolute;
+	width: 100%;
+	height: 25rem;
+	background-image: url(parralaxNature.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-attachment:  fixed;
+	opacity: 0.7;
+}
+
+.parralox-data{
+	margin-top: 9rem;
+	color: black;
+	font-weight: bolder;
+	font-size: 1.2rem;
+}
+
+.counter-number{
+	margin-bottom: 0px;
+	color: black;
+	font-weight: bolder;
+	font-size: 3.5rem;
+}
+
+.spanImg{
+	width: 5rem;
+	height: 5rem;
+}
+
+.homeParralax{
+	position: absolute;
+	width: 100%;
+	height: 25rem;
+	background-image: url(p3.jpeg);
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-attachment:  fixed;
+	opacity: 0.6;
+}
+
+.homeParralax-data{
+	position: relative;
+	text-align: center;
+	margin-top: 8.5rem;
+	color: black;
+	font-weight: bolder;
+	font-size: 3rem;
+}
+
+.contactUsPhone{
+	font-family: Cormorant, sans-serif;
+}
+.fontForm{
+	font-family:Open Sans;
+}
+
+.homeImgDescription{
+	font-family:Open Sans;
+	font-size: 1.1rem;
+}
+
+#colOrder{
+	position: relative;
+}
+
+.contact-img{
+	width: 4rem;
+	height: 4rem;
+}
+
+.a{
+	color: black;
+}
+
+.a:hover {
+	color: #3f6d73;
+	text-decoration: none;
+}
+
+.margin1{
+	margin-left: 44px;
+}
+.margin2{
+	margin-left: 10px;
+}
+
+#sendButton{
+	padding-top: 0.5rem;
+}
+
+#buttonCss{
+	font-size: 20px;
+	width: 6rem;
+	border-radius: 25px;
+}
+
+#buttonCss1{
+	font-size: 20px;
+	width: 15rem;
+	border-radius: 25px;
+	background-color: #1A1818;  
+	border-top:  0px solid; 
+	box-shadow: 5px 5px 20px black; 
+}
+
+#contactPara{
+	padding-right: 17rem;
+	padding-left: 17rem;
+}
+
+.submitMsg{
+	color: #3F6D73
+}
+.submitMsgDiv{
+	margin-left: 7rem;
+}
+#contact-text-h1{
+	text-align: center;
+	font-family: Cormorant, sans-serif;
+}
+
+
+@media only screen and (max-width: 991px ){
+	#home{
+		overflow-x: hidden;
+	}
+	#about{
+		overflow-x: hidden;
+	}
+	#contact{
+		overflow-x: hidden;
+	}
+	#indexWallpaper{
+		width: 100%;
+	}
+	.contactUsPhone{
+		text-align: center;
+	}
+	#navButton{
+		margin-left: 0px;
+	}
+	#navItems{
+		margin-left: 1rem;
+	}
+	#navBrand{
+		font-size: 30px;
+		margin-left: 10px;
+		font-weight: bolder;
+	}
+	.form-style{
+		margin: auto;
+		width: 320px;
+		border-radius: 25px;
+	}
+
+	.indexNames{
+		font-size: 35px;
+		margin-top: 10px;
+	}
+	#indexTitle1{
+		margin-left: 2rem;
+	}
+	#indexTitle2{
+		margin-left: 3.2rem;
+	}
+	#overlay-text{
+		margin-top: 9rem;
+		margin-left: 0.9rem;
+	}
+	#overlay-h1{
+		font-size: 3.2rem;
+		font-weight: bold;
+	}
+	#overlay-about-h1{
+		text-align: center;
+		font-size: 3.7rem;
+		font-weight: bold;
+	}
+	#overlay-about-text{
+		margin-top: 20rem;
+		position: absolute;
+		color: white;
+		text-align: center;
+		font-size: 3.7rem;
+		font-weight: bold;
+	}
+	#overlay-text-sub{
+		font-size: 1.5rem;
+	}
+
+	#overlay-about-text{
+		margin-top: 18rem; 
+	}
+	#overlay-about-h1{
+		text-align: center;
+		font-size: 4.6rem;
+	}
+	.about-heading{
+		font-size: 45px;
+	}
+	#indexWallpaper1{
+		visibility: hidden;
+		position: absolute;
+	}
+	#overlay{
+		width: 23.4rem;
+		height: 36.4rem;
+	}
+	#indexParaPhone h2{
+		text-align: center;
+	}
+	#aboutUsParaPhone{
+		font-size: 15px;
+	}
+	#aboutUsPhone{
+		font-size: 35px;
+	}
+
+	.information{
+		width: 100%;
+		height: 27rem;
+		background-image: url(parralaxNature.jpg);
+		background-repeat: no-repeat; 
+		background-size: cover;
+		background-attachment:  fixed;
+		opacity: 0.8;
+	}
+
+	.parralox-data{
+		margin-top: 16px;
+		margin-left: 7px;
+		color: black;
+		font-weight: bolder;
+		font-size: 12px;
+	}
+	.homeParralax{
+		height: 30rem;
+	}
+	.homeParralax-data{
+		margin-top: 5rem;
+	}
+	.counter-number{
+		margin-bottom: 0px;
+		color: black;
+		font-weight: bolder;
+		font-size: 25px;
+	}
+
+	.spanImg{
+		width: 3.5rem;
+		height: 3.5rem;
+	}
+
+	.margin1{
+		margin-left: 0px;
+		margin-bottom: 3rem;
+	}
+	.margin2{
+		margin-left: 0px;
+	}
+	#contactPara{
+		margin-top: 10px;
+		padding-right: 0rem;
+		padding-left: 0rem;
+	}
+	#sendButton{
+		padding-top: 0.5rem;
+		text-align: center;
+	}
+	.submitMsgDiv{
+		text-align: center;
+		margin-left: 0rem;
+	}
+	.submitMsg{
+		color: #3F6D73
+		font-size :10px;
+	}
+	#navItems{
+		background-color: white;
+	}
+	#navItem{
+		color: black;
+		text-align: center;
+		font-weight: bolder;
+		z-index: 2;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
